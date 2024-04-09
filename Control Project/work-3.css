@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+.royal{
+    height: 1000px;
+    width: 1688px;
+    background: #FFF;
+}
+.text-text{
+    color: #000;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+    margin-top: 0;
+}
+.text-text-2{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    margin-bottom: 30px;
+}
+.one{
+    margin-left: 260px;
+}
+.two{
+    margin-left: 40px;
+}
+.tree{
+    margin-left: 40px;
+}
+
+.four{
+    margin-left: 260px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.five{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.six{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.load{
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

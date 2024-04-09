@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px){
+    .flex{
+        flex-direction: column;
+    }
+    section{
+        height: 33.3%;
+        width: 100%;
+    }
+}

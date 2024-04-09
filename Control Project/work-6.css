@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+.footer-1{
+    height: 400px;
+    background-image: url("footer-2.png");
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+span{
+    color: #FF4B32;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; /* 31.2px */
+}
+.text-4{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    margin-left: 50px;
+}
+.work{
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.work-1{
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.work-2{
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.work-3{
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.focus-2{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+.text-photo{
+    margin-left: 50px;
+}
+.categories{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.categories-1{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.categories-2{
+    color: #FFF;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.categories-3{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.information{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.information-1{
+    color: #FFF;
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.present{
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    margin-top: 100px;
+}

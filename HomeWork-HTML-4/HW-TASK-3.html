@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login in</title>
+    <style>
+        body{
+            margin: 20vh;
+        }
+        .gray{
+            width: 30vw;
+            height: 90vh;
+            background-color: white;
+            border: 2px solid #b7b6b6;
+            margin: auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        input{
+            height: 30px;
+            width: 180px;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+        }
+        .small-gray{
+            width: 30vw;
+            height: 10vh;
+            background-color: white;
+            border: 2px solid #b7b6b6 ;
+            margin: auto;
+        }
+        img{
+            height: 10vh;
+            width: 15vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 200px;
+        }
+        .gray>main{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .gray>main{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gray">
+        <img src="HW-PICTURE-instagram.jpg" alt="photo">
+        <main>
+            <label for="name"></label>
+            <input type="text" name="username" id="name" placeholder="Номер телефону, ім'я користувача або" required>
+            <label for="password"></label>
+            <input type="text" name="password" id="password" placeholder="Пароль" required>
+            <button>Увійти</button>
+            <span>АБО</span>
+        </main>
+    </div>
+    <br>
+    <div class="small-gray">
+        <input type="submit" value="Зареєструватись">Не маєте облікового запису?</div>
+</body>
+</html>

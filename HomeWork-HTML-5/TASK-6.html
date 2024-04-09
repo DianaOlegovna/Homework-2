@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .yellow{
+            width: 300px;
+            height: 200px;
+            background-color: yellow;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            z-index: -1;
+        }
+        .pink{
+            width: 300px;
+            height: 200px;
+            background-color: plum;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        .sale{
+            width: 150px;
+            height: 50px;
+            background-color: red;
+            position: absolute;
+            top: -25px;
+            z-index: -2;
+        }
+    </style>
+</head>
+<body>
+    <p>This website can give you a lot of help and advice. It’s all free! There are no passwords to remember, and no need to login. Just start learning!</p>
+    <div class="yellow">
+        <div class="sale"></div>
+    </div>
+    <div class="pink"></div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+.section-2{
+    height: 800px;
+    width: 1688px;
+    background: #FFF;
+}
+.that{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.pp{
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+    letter-spacing: 6px;
+    margin-left: 170px;
+    margin-top: 150px;
+}
+.pp2{
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    margin-left: 170px;
+}
+.block-1{
+    height: 40px;
+    width: 400px;
+    flex-shrink: 0;
+    display: block;
+}
+.block-2{
+    height: 40px;
+    width: 400px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: 70px;
+}
+.block-3{
+    height: 40px;
+    width: 400px;
+    flex-shrink: 0;
+    display: block;
+    margin-left: 70px;
+}
+.brazilian{
+    color: #0C0D0C;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.brazilian-1{
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+.brazilian-2{
+    color: #000;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+.Vietnam{
+    color: #0C0D0C;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.Vietnam-1{
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+.Vietnam-2{
+    color: #000;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+.Indonesian{
+    color: #0C0D0C;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.Indonesian-1{
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+.Indonesian-2{
+    color: #000;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+    font-size: 35px;
+}
+header{
+    height: 10vh;
+    background-color: grey;
+    font-size: 1em;
+}
+footer{
+    height: 15vh;
+    background-color: grey;
+}
+.flex{
+    display: flex;
+    height: 75vh;
+}
+section{
+    width: 33.3%;
+    height: 100%;
+    font-size: 0.7em;
+}
+.section-1{
+    background-color: hotpink;
+}
+.section-2{
+    background-color: yellowgreen;
+}
+.section-3{
+    background-color: orange;
+}
+header, footer, section{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}

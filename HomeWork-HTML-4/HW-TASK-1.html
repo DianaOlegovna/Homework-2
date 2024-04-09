@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .box-section{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            color: #000;
+            text-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+            font-family: KoHo,serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        p{
+            color: #000;
+            font-family: KoHo,serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        #picture{
+            height: 100vh;
+            background-image: url("https://s3-alpha-sig.figma.com/img/f2d3/038b/985d94469dd3e4e59a048b8ad995f428?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DZBj43GFCUotJAP3tk4tc4yRKFDDP0KKkfBNFY58bVNiyYbBf8rX2JnS9v0GUNPuSJCSGMLWXz~W0e5hEXBssAncOOO3w12US1HUWB76QPtA0TvqYcH~oNVYM6oQzSCdN-ln-u98UMJJ-r~QBLKmB4mNEemrjbtbnUUpHnUYFbX0Uw2BOEEmZFfM00-wJoux9uIQ4zTwjDqjchvP75OCI~2g8Us7ZLQVN7aHP9xczJqQX-OLiNS2SquVbzdwAy6qUtUBaDD54pZ27gdG-z1E1BHnPbywzTFqa3LzoagJz~jYIMOpWpd8vTssgF9KcFHnMMEnqTC9fDGa1a6uJ2phIg__");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: static;
+        }
+        #picture-2{
+            height: 100vh;
+            background-image: url("https://s3-alpha-sig.figma.com/img/f2d3/038b/985d94469dd3e4e59a048b8ad995f428?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DZBj43GFCUotJAP3tk4tc4yRKFDDP0KKkfBNFY58bVNiyYbBf8rX2JnS9v0GUNPuSJCSGMLWXz~W0e5hEXBssAncOOO3w12US1HUWB76QPtA0TvqYcH~oNVYM6oQzSCdN-ln-u98UMJJ-r~QBLKmB4mNEemrjbtbnUUpHnUYFbX0Uw2BOEEmZFfM00-wJoux9uIQ4zTwjDqjchvP75OCI~2g8Us7ZLQVN7aHP9xczJqQX-OLiNS2SquVbzdwAy6qUtUBaDD54pZ27gdG-z1E1BHnPbywzTFqa3LzoagJz~jYIMOpWpd8vTssgF9KcFHnMMEnqTC9fDGa1a6uJ2phIg__");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            opacity: 10%;
+            flex-direction: column;
+        }
+        #picture-3{
+            height: 100vh;
+            background-image: url("https://s3-alpha-sig.figma.com/img/f2d3/038b/985d94469dd3e4e59a048b8ad995f428?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DZBj43GFCUotJAP3tk4tc4yRKFDDP0KKkfBNFY58bVNiyYbBf8rX2JnS9v0GUNPuSJCSGMLWXz~W0e5hEXBssAncOOO3w12US1HUWB76QPtA0TvqYcH~oNVYM6oQzSCdN-ln-u98UMJJ-r~QBLKmB4mNEemrjbtbnUUpHnUYFbX0Uw2BOEEmZFfM00-wJoux9uIQ4zTwjDqjchvP75OCI~2g8Us7ZLQVN7aHP9xczJqQX-OLiNS2SquVbzdwAy6qUtUBaDD54pZ27gdG-z1E1BHnPbywzTFqa3LzoagJz~jYIMOpWpd8vTssgF9KcFHnMMEnqTC9fDGa1a6uJ2phIg__");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .box{
+            height: 50vh;
+            width: 30vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #picture-4{
+            background-image: url("https://s3-alpha-sig.figma.com/img/ea58/8906/6051d6ed044c47455a840b85dae3ff49?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=P~0xWcrjdBRrNbEHwFebCHy0jMMuiEKBDtcKSH08PSmhNohxr~3zpCyABcS48CRHSjD7U9i0WysYb-Ic47nP7gtro8U18xNUDhQulm9owbrnoRXgzXgMHXXGuCQdigPACkeqcj-A5Ep6bwssFgj-E71Yaaw8sO4YySYQaXlSJ2djjvaWDrmbAAWRL9aJTpNbyuJ~iWu4RohQcSRUTWHvP5FM7DEN-zXuWndJPlML723rOf8DkLW3yRfbL4hmSoA78UYuFiNEqnXSUwzlHC2HET~VzUBIiprlGSvjxcv8m3~m5HzNaKHghTOvZRezpSE3nqDS8mnVUmtIw2xAg87I5g__");
+            background-size: cover;
+            background-position: center;
+            background-attachment: revert;
+        }
+        #white{
+            background-color: white;
+            flex-direction: column;
+        }
+        .text-1{
+            width: 200px;
+            height: 50px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            border: 1px solid rgba(156, 152, 152, 0.10);
+            background: rgba(217, 217, 217, 0.60);
+            box-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            height: 30vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            width: 400px;
+            height: 200px;
+            flex-shrink: 0;
+            background: #FAF9F7;
+            box-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        iframe{
+            width: 400px;
+            height: 250px;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text-2{
+            color: #000;
+            font-family: KoHo,serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .box-2{
+            width: 300px;
+            height: 450px;
+            flex-shrink: 0;
+            background: rgba(83, 83, 83, 0.40);
+        }
+        /*.box-3{*/
+        /*    width: 200px;*/
+        /*    height: 350px;*/
+        /*    flex-shrink: 0;*/
+        /*    background: rgba(83, 83, 83, 0.40);*/
+        /*}*/
+        /*.box-4{*/
+        /*    width: 200px;*/
+        /*    height: 350px;*/
+        /*    flex-shrink: 0;*/
+        /*    background: rgba(83, 83, 83, 0.40);*/
+        /*}*/
+        /*.red{*/
+        /*    display: inline-block;*/
+        /*}*/
+        /*#picture-7{*/
+        /*    height: 50vh;*/
+        /*    width: 50vw;*/
+        /*    position: static;*/
+        /*    margin-top: 0;*/
+        /*}*/
+        .div>#picture-3.box-2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+        img{
+            height: 100px;
+            width: 100px;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div id="picture" class="box-section">
+        <div id="picture-4" class="box"></div>
+        <main id="white" class="box">
+            <h1>Mountains</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p class="text-1"><input type="submit" value="Buttom"></p>
+        </main>
+    </div>
+    </header>
+
+    <div>
+        <div id="picture-2" class="box-section-1"></div>
+        <div><iframe width="560" height="315" src="https://www.youtube.com/embed/Z_QbY2XUAi8?si=hd1ZVJku9patIoQ_" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p class="text-2">ABSTRACT NATURE PHOTOGRAPHY Abstract nature photography: pushing myself creatively. In this video, I go into the field to try to create semi-abstract or abstract nature photos, limiting myself to only one prime lens.</p>
+        </div>
+    </div>
+
+    <div id="picture-3" class="box-section-2">
+        <div class="box-2">
+            <img src="HW-img-1.png" alt="photo">
+            <p>LOREM</p>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>50$</p>
+            <input type="submit" value="Buttom">
+        </div>
+    </div>
+
+<!--        <div id="picture-6" class="box-3">-->
+<!--            <div class="red">-->
+<!--            <p>LOREM</p>-->
+<!--            <p>Lorem ipsum dolor sit amet</p>-->
+<!--            <p>70$</p>-->
+<!--                <input type="submit" value="Buttom">-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div id="picture-7" class="box-4">-->
+<!--            <p>LOREM</p>-->
+<!--            <p>Lorem ipsum dolor sit amet</p>-->
+<!--            <p>85$</p>-->
+<!--            <input type="submit" value="Buttom">-->
+<!--        </div>-->
+
+</body>
+</html>
