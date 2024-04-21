@@ -1,0 +1,10 @@
+@media sreen and (min-width: 300px) and (max-width: 500px){
+    main{
+        width: 100vw;
+        height: 40vh;
+    }
+    section{
+        width: 100vw;
+        height: 20vh;
+    }
+}
